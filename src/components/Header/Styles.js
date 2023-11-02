@@ -9,9 +9,10 @@ export const HeaderDiv = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+
   width: 100vw;
   height: 4rem;
-  justify-content: space-evenly;
   background-color: #171717;
 `;
 
@@ -22,4 +23,16 @@ export const StyledLink = styled(Link)`
     cursor: pointer;
     color: lightblue;
   }
+`;
+
+export const ContainerLinks = styled.div`
+  display: flex;
+  gap: 1rem;
+  padding-right: 2rem;
+`;
+
+export const ContainerLogo = styled.div`
+  display: flex;
+  gap: 1rem;
+  padding-left: 2rem;
 `;

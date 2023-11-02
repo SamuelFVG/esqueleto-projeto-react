@@ -5,10 +5,9 @@ import {
   Route,
 } from "react-router-dom";
 
-import { Cadastro } from "./pages/Cadastro";
-import { Perfil } from "./pages/Perfil";
-import { Home } from "./pages/Home";
 import { AppLayout } from "./layouts";
+
+import { Perfil, Cadastro, Home } from "./pages";
 
 function Routes() {
   const router = createBrowserRouter(
